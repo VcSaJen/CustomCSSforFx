@@ -348,7 +348,7 @@
 /* - Fx 68-71 Windows/Linux (use the Fx 65+ versions for macOS) *********************************/
 /* @import "./css/tabs/tabs_below_navigation_toolbar_fx68.css"; /**/
 /* - Fx 72+ Windows/Linux (use the Fx 65+ versions for macOS) ***********************************/
-/* @import "./css/tabs/tabs_below_navigation_toolbar_fx72.css"; /**/
+@import "./css/tabs/tabs_below_navigation_toolbar_fx72.css"; /**/
 
 /* - TABS BELOW MAIN CONTENT (tabs on bottom) - EXPERIMENTAL ************************************/
 /* [!] SUPPORT THREAD: https://github.com/aris-t2/customcssforfx/issues/33 **********************/
@@ -377,10 +377,10 @@
 
 /* TAB BACKGROUND COLORS for default/active/hovered/unloaded tabs and 'new tab' tab *************/
 /* edit target file to set own custom colors ****************************************************/
-/* @import "./config/custom_tab_color_settings.css"; /**/
+@import "./config/custom_tab_color_settings.css"; /**/
 /* TAB TEXT colors/shadow/weight/style for default/active/hovered/unloaded tabs *****************/
 /* edit target file to set own custom colors ****************************************************/
-/* @import "./config/custom_tab_text_settings.css"; /**/
+@import "./config/custom_tab_text_settings.css"; /**/
 
 /* MULTIROW / multi lined tabs - [only use one at a time] ***************************************/
 /* [!] EXPERIMENTAL (any Fx update might break this highly experimental feature) ****************/
@@ -771,3 +771,8 @@
 /************************************************************************************************/
 /************************************************************************************************/
 /************************************************************************************************/
+
+/* New Tab Context - move the menu item to the top */
+#tabContextMenu menuitem[label="New Tab"] { -moz-box-ordinal-group: 0 !important; }
+/* New Tab Context - hide the icon */
+#tabContextMenu menuitem[label="New Tab"] .menu-iconic-icon { display: none !important; }

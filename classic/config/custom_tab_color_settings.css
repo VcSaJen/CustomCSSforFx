@@ -6,13 +6,13 @@
 /* color names, hexcodes, rgb(a) and hsl(a) and gradients can be used */
 
 :root {
-	--default_tabs_bg_selected: linear-gradient(to bottom,#FF8800,#FFCC99);
-	--default_tabs_toolbar_background: linear-gradient(to bottom,#FFCC99,#FFCC99);
-	--default_tabs_bg_default: linear-gradient(to bottom,#FFCC99,#CCCCCC);
-	--default_tabs_bg_hovered: linear-gradient(to bottom,#FF9900,#FF6600);
-	--default_tabs_bg_unloaded: linear-gradient(to bottom,#FFCC99,#CCCCCC);
-	--default_tabs_bg_newtab: linear-gradient(to bottom,#FFCC99,#CCCCCC);
-	--default_tabs_bg_newtab_hovered: linear-gradient(to bottom,#FF9900,#FF6600);
+	--default_tabs_bg_selected: linear-gradient(to bottom,#FCFEFF,#EBF3FB);
+	--default_tabs_toolbar_background: linear-gradient(to bottom,#F5F6F7,#F5F6F7);
+	--default_tabs_bg_default: linear-gradient(to bottom,#D0DDEB,#B8C4D0);
+	--default_tabs_bg_hovered: linear-gradient(to bottom,#E4EEF9,#D2DEEA);
+	--default_tabs_bg_unloaded: linear-gradient(to bottom,#D0DDEB,#B8C4D0);
+	--default_tabs_bg_newtab: linear-gradient(to bottom,#D0DDEB,#B8C4D0);
+	--default_tabs_bg_newtab_hovered: linear-gradient(to bottom,#E4EEF9,#D2DEEA);
 }
 
 

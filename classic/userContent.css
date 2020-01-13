@@ -47,7 +47,7 @@
 
 /* FIREFOX 68+ #################################################################################*/
 /* addons page appearance - [only use one at a time] (incl. version number & buttons) ***********/
-@import "./css/aboutaddons/addons_manager_alternative_appearance_fx68.css"; /**/
+/* @import "./css/aboutaddons/addons_manager_alternative_appearance_fx68.css"; /**/
 /* @import "./css/aboutaddons/addons_manager_alternative_appearance_aero_fx68.css"; /**/	/* <-- AERO colors */
 
 /* version number for active add-ons [Fx 68+] ***************************************************/
@@ -133,7 +133,7 @@
 /************************************************************************************************/
 
 /* preferences page appearance - [only use one at a time] ***************************************/
-@import "./css/aboutpreferences/preferences_alternative_appearance.css"; /**/
+/* @import "./css/aboutpreferences/preferences_alternative_appearance.css"; /**/
 /* @import "./css/aboutpreferences/preferences_alternative_appearance_aero.css"; /**/	/* <-- AERO colors */
 /* @import "./css/aboutpreferences/preferences_alternative_appearance_v2.css"; /**/
 
