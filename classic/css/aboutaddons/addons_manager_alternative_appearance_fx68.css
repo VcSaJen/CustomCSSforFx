@@ -10,6 +10,8 @@
 	  --in-content-category-background-hover: Highlight !important;
 	  --in-content-category-text-selected: black !important;
 	  --in-content-category-background-selected: white !important;
+	  --section-width: unset !important;
+	  --main-margin-start: unset !important;
 	}
 	
 	@supports -moz-bool-pref("browser.in-content.dark-mode") {
@@ -38,6 +40,7 @@
 
 	.category {
 	  margin-inline-start: 0px !important;
+	  transition: none !important;
 	}
 	
 	/* dimensions / positioning */
@@ -100,38 +103,45 @@
 	}
 	
 	/* colorize category icons */
+	#categories .category[name="search"],
 	#category-search .category-icon {
 	  fill: #8aa8cc !important;
 	}
-
+	
+	#categories .category[name="discover"],
 	#category-discover .category-icon {
 	  fill: #8b8b8b !important;
 	}
-
+	
+	#categories .category[name="extension"],
 	#category-extension .category-icon {
 	  fill: #63c54f !important;
 	}
-
+	
+	#categories .category[name="theme"],
 	#category-theme .category-icon {
 	  fill: #ffba2f !important;
 	}
 
+	#categories .category[name="plugin"],
 	#category-plugin .category-icon {
 	  fill: #2b63c1 !important;
 	}
-
+	
+	#categories .category[name="dictionary"],
 	#category-dictionary .category-icon {
 	  fill: purple !important;
 	}
-
+	
+	#categories .category[name="legacy"],
 	#category-legacy .category-icon {
 	  fill: red !important;
 	}
-
+	#categories .category[name="available-updates"],
 	#category-availableUpdates .category-icon {
 	  fill: orange !important;
 	}
-
+	#categories .category[name="recent-updates"],
 	#category-recentUpdates .category-icon {
 	  fill: #b99c16 !important;
 	}
@@ -140,6 +150,7 @@
 	  filter: brightness(2.00) !important;
 	}
 	
+	.category[name]:not([selected]):hover,
 	#category-discover:not([selected="true"]):hover .category-icon,
 	#category-theme:not([selected="true"]):hover .category-icon{
 	  filter: brightness(1.5) !important;
@@ -381,7 +392,7 @@
 	}
 	
 	.main-heading {
-	  margin-top: -30px !important;
+	  margin-top: -26px !important;
 	}
 	
 	.main-heading .header-name,
