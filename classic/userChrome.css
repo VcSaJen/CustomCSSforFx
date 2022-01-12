@@ -94,8 +94,8 @@
 /* COLOR VARIABLES FOR DEFAULT BROWSER THEME ONLY - MAIN UI - [only use one at a time] **********/
 /* [!] set own colors for tabs & toolbars inside 'color_variables.css' or use available presets */
 /* [!] enabled 'menubar_color.css' and 'statusbar_color.css' might be required in some cases ****/
-@import "./config/color_variables.css"; /**/  /* <- default 'grey' colors */
-/* @import "./config/color_variables_aero.css"; /**/  /* <- 'AeroBlue' colors (Win 7 Aero) */
+/* @import "./config/color_variables.css"; /**/  /* <- default 'grey' colors */
+@import "./config/color_variables_aero.css"; /**/  /* <- 'AeroBlue' colors (Win 7 Aero) */
 /* @import "./config/color_variables_classic-grey.css"; /**/  /* <- 'classic grey' colors (Win Classic) */
 /* @import "./config/color_variables_fx3.css"; /**/  /* <- 'Firefox 3-like' blueish colors */
 /* @import "./config/color_variables_transparent.css"; /**/  /* <- (semi-)'transparent' colors */
@@ -285,7 +285,7 @@
        'button in Firefox titlebar' options to work properly ************************************/
 
 /* button in titlebar - [only use one at a time] ************************************************/
-@import "./css/appbutton/appbutton_in_titlebar.css"; /**/ /* <-- label only */
+/* @import "./css/appbutton/appbutton_in_titlebar.css"; /**/ /* <-- label only */
 /* @import "./css/appbutton/appbutton_in_titlebar_icon_only.css"; /**/
 
 /* for 'appbutton in titlebar icon only' - [only use one at a time] *****************************/
@@ -300,7 +300,7 @@
 /* @import "./css/appbutton/appbutton_in_titlebar_macOS_fix.css"; /**/
 
 /* button color - [only use one at a time] ******************************************************/
-@import "./css/appbutton/appbutton_in_titlebar_autocolor.css"; /**/
+/* @import "./css/appbutton/appbutton_in_titlebar_autocolor.css"; /**/
 /* @import "./css/appbutton/appbutton_in_titlebar_autocolor57p.css"; /**/
 /* @import "./css/appbutton/appbutton_in_titlebar_transparent.css"; /**/
 /* @import "./css/appbutton/appbutton_in_titlebar_semi_transparent.css"; /**/
