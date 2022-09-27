@@ -3,10 +3,7 @@
 /****************************************************************************************/
 
 
-@media (-moz-os-version: windows-win7) {
-  @media (-moz-windows-default-theme) {
-    #TabsToolbar:not(:-moz-lwtheme) {
-      background-image: unset !important;
-    }
-  }
+/* reduce text font size in location/search bar (to what is was on Win7)*/
+#main-window[uidensity="compact"] :is(.searchbar-textbox, #urlbar,#searchbar) {
+  font-size: 12px !important;
 }
