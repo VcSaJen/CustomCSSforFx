@@ -610,14 +610,14 @@
 */
 
 /* Edit target file to set own custom colors */
-/* @import "./config/custom_tab_color_settings.css"; /**/
+@import "./config/custom_tab_color_settings.css"; /**/
 
 /* TAB TEXT colors/shadow/weight/style for default/active/hovered/unloaded tabs
 
    [!] Edit target file to set own custom colors
 */
  
-/* @import "./config/custom_tab_text_settings.css"; /**/
+@import "./config/custom_tab_text_settings.css"; /**/
 
 
 /* ------------------------------------------
