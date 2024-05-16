@@ -22,6 +22,10 @@
   min-height: unset !important;
 }
 
+#tabbrowser-tabs {
+	width: 100% !important;
+}
+
 /* code for Unix (macOS/Linux) */
 @media (not (-moz-os-version: windows-win10)) and (not (-moz-os-version: windows-win8)) and (not (-moz-os-version: windows-win7)) {
 	#TabsToolbar .titlebar-placeholder[type="caption-buttons"]:not([ordinal="1000"]) {
